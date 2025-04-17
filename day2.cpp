@@ -31,15 +31,28 @@ int main() {
     //     cout << "n is odd" << endl;
     //     }
 
-int a,b,c;
-cin>>a>>b>>c;
-if(a>b && a>c){
-    cout<<"a is greater"<<endl;
-    }else if(b>c && b>a){
-        cout<<"b is greater"<<endl;      //greater number 
-        }else{
-            cout<<"c is greater"<<endl;
-            }
+// int a,b,c;
+// cin>>a>>b>>c;
+// if(a>b && a>c){
+//     cout<<"a is greater"<<endl;
+//     }else if(b>c && b>a){
+//         cout<<"b is greater"<<endl;      //greater number 
+//         }else{
+//             cout<<"c is greater"<<endl;
+//             }
 
-    return 0;
-}      
+
+// for(int round=2; round<=100;round=round+2)
+// {
+//          //print hello world 1000 times using for loop
+// cout<<round<<endl;
+// }
+
+int i = 0;
+while(i<5){
+    cout <<"hello"<<endl;
+    cout << i << endl;
+    i++;
+}
+
+}
